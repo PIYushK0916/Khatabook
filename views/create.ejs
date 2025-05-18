@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/public/css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <main class="w-full h-screen flex justify-center items-center bg-white font-['Helvetica']">
+        <div class="homepage flex flex-col w-[90vh] h-[90vh] text-white bg-green-600 rounded-2xl">
+            <div class="flex w-full h-[10vh] justify-between items-center py-2 px-[4rem]">
+                <div>
+                    <h3 class="text-2xl tracking-tight">Khaatabook</h3>
+                </div>
+                
+                <div class="navlinks flex gap-5">
+                    <a class="tracking-tight" href="/">Home</a>
+                    <a class="tracking-tight" href="/create">Create New Hisaab</a>
+                </div>
+            </div>
+            <div class="w-full bg-green-900 h-[.3rem]"></div>
+            <div class="px-[4rem] hisaabs">
+                <div>
+                    <h3 class="capitalize text-2xl font-medium mb-4 mt-4 tracking-tight">create new hisaab</h3>
+                </div>
+                <form class="bg-green-800 rounded-lg flex flex-col h-auto py-10 px-4" action="/createhisaab" method="post">
+                    <input name="title" class="text-md px-3 text-black py-2 w-full mb-5 rounded-md bg-grey-600" type="text"
+                        placeholder="Shopping ka hisaab, ghar ka kharch...">
+                    <textarea name="content" class="block text-black w-full px-3 py-2 resize-none bg-grey-600 rounded-md min-h-96"
+                        placeholder="write your hisaab."></textarea>
+                    <input type="submit" class="block mt-5 px-5 py-3 bg-green-500 text-black rounded-md"
+                        value="Create Hisaab">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
