@@ -26,3 +26,27 @@ A modern **digital ledger web application** that helps individuals and small bus
 
 ## 📂 Project Structure
 
+Khatabook/
+├── public/
+├── routes/
+├── models/
+├── views/
+├── .env
+├── app.js
+├── package.json
+└── README.md
+
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/PIYushK0916/Khatabook.git
+cd Khatabook
+npm install
+
+MONGO_URI=your_mongodb_connection_string
+PORT=5000
+
+npm start
