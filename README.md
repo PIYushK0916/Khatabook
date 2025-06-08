@@ -26,15 +26,15 @@ A modern **digital ledger web application** that helps individuals and small bus
 
 ## 📂 Project Structure
 
-Khatabook/
-├── public/
-├── routes/
-├── models/
-├── views/
-├── .env
-├── app.js
-├── package.json
-└── README.md
+- Khatabook/
+- ├── public/
+- ├── routes/
+- ├── models/
+- ├── views/
+- ├── .env
+- ├── app.js
+- ├── package.json
+- └── README.md
 
 
 ---
